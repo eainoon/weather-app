@@ -1,0 +1,74 @@
+:root {
+  --bg: #f7f4fb;
+  --accent: #c3a7e6;
+  --accent-light: #e7d9f8;
+  --text: #3c2a4d;
+  --white: #fff;
+  --shadow: rgba(121, 88, 159, 0.15);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, var(--accent-light), var(--bg));
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.card {
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px var(--shadow);
+  padding: 2rem;
+  text-align: center;
+  width: 320px;
+}
+
+#loading {
+  width: 60px;
+  display: block;
+  margin: 1rem auto;
+}
+
+#icon {
+  width: 90px;
+  display: none;
+  margin: 0 auto 1rem;
+}
+
+#city {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+#temp {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0.3rem 0;
+}
+
+#desc {
+  text-transform: capitalize;
+}
+
+#error {
+  color: crimson;
+  margin-top: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.9rem;
+  color: #6a4f91;
+}

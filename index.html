@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App ☁️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather App</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <p id="status">Detecting your location...</p>
+      <img id="loading" src="assets/loading.gif" alt="Loading" />
+      <img id="icon" src="" alt="Weather icon" style="display:none;" />
+      <h2 id="city"></h2>
+      <h3 id="temp"></h3>
+      <p id="desc"></p>
+      <p id="humidity"></p>
+    </div>
+
+    <div id="error"></div>
+  </main>
+
+  <footer>
+    <p>Built by Eainan Salsabila</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
