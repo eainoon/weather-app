@@ -1,4 +1,4 @@
-const apiKey = 3cc32891bb7c83b5ee1db142b5ee1bcd;
+const apiKey = import.meta.env.WEATHER_API_KEY;
 
 const statusElem = document.getElementById("status");
 const iconElem = document.getElementById("icon");
